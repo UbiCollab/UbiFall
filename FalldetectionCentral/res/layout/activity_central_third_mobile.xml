@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@layout/borders"
+    android:id="@+id/thirdCollumn"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    
+        <TabHost
+	android:id="@+id/my_tabhost"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+		<TabWidget
+		android:id="@android:id/tabs"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+			
+		<FrameLayout
+		android:id="@android:id/tabcontent"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+			<LinearLayout
+			android:id="@+id/content"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			</LinearLayout>
+		</FrameLayout>
+	</TabHost>
+	
+
+    <RelativeLayout 
+    android:paddingBottom="10dip">
+    
+      <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:padding="5dip"
+        android:textSize="28dip"
+        android:layout_alignParentLeft="true"
+        android:text="Feed " />
+      
+      
+            <Button 
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dip" 
+        android:layout_alignParentRight="true"
+        android:text="Brukeren er Ok "
+           />
+    
+  </RelativeLayout>
+		   
+<ScrollView 
+     android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight=".80"
+    >
+    
+       	<!-- The dialog -->
+ 		 <TableLayout 
+	            android:id="@+id/messagesTableLayout"
+	            android:layout_width="fill_parent" 
+	            android:layout_height="fill_parent"
+	            >
+	     </TableLayout>
+    
+	    </ScrollView>
+	    
+
+
+       <!-- The chat box -->
+           <TableRow 
+    android:id="@+id/tablerow2"
+    android:layout_marginTop="5dip"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight=".20">
+ 		 
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+              <LinearLayout 
+	     android:layout_height="fill_parent"
+	      android:layout_weight="0.8"
+	     android:layout_width="fill_parent" >
+	 <EditText
+	     android:id="@+id/inputDialog"
+	     android:layout_width="250dip"
+	     android:layout_height="wrap_content"
+	     android:hint="Skriv melding her..."
+	     android:inputType="textMultiLine|textCapSentences"
+	     android:scrollHorizontally="false" 
+	     android:scrollbars="vertical"
+	     android:singleLine="false" 
+  		 android:lines="6" 
+	     android:gravity="top"
+	     >
+	     
+	 </EditText>
+	 
+	 <RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_weight="0.2"
+	    android:layout_height="95dip"
+	    android:paddingLeft="5dip"
+	     
+	     >
+	 
+	 <TableRow
+	     
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+	    android:paddingLeft="5dip" >
+	<Button 
+	    android:id="@+id/sendButton"
+	    android:layout_width="80dip"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="5dip"
+	    android:text="Send"/>
+	
+	</TableRow>
+	
+	 <TableRow 
+	     android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentBottom="true"
+	    android:paddingLeft="5dip" >
+	     
+	     <Button 
+	    android:id="@+id/callButton"
+	    android:layout_width="80dip"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="5dip"
+	    android:text="Ring"/>
+	     
+	     
+	     
+	 </TableRow>
+	 </RelativeLayout>
+	 </LinearLayout>    
+               
+               
+    </TableRow>
+       
+       
+     </TableLayout>
+    

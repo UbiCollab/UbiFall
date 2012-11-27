@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/associate_listitem_selector"
+     >
+    
+    
+    
+<TextView 
+          android:id="@+id/textview"
+          android:layout_width="wrap_content"
+          android:paddingRight="10dip"
+          android:textSize="20dip"
+          android:layout_height="fill_parent">
+
+</TextView>
+
+<TextView 
+          android:id="@+id/textview2"
+          android:layout_width="wrap_content"
+          android:layout_height="fill_parent"
+          android:textSize="20dip">
+
+</TextView>
+
+
+</LinearLayout>

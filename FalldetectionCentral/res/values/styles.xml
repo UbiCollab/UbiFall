@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+
+    
+ 
+    <color name="ora">#FFBB33</color>
+    <color name="blue">#000000</color>
+ 
+    <style name="venus" >
+        <item name="android:textColor">@color/ora</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+ 
+    <style name="venus.center">
+        <item name="android:gravity">center</item>
+    </style>
+ 
+    <style name="system" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+ 
+    <style name="jupiter" parent="@android:style/Theme">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+ 
+        <!--  set default widget styles -->
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="android:editTextStyle">@style/EditText</item>
+        <item name="android:tabWidgetStyle">@style/LightTabWidget</item>
+    </style>
+ 
+    <style name="Button" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+ 
+    <style name="EditText" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    
+    	<style name="LightTabWidget" parent="@android:style/Widget.TabWidget">
+	    <item name="android:textColor">@color/tab_indicator_text</item>
+	</style>
+	
+    	
+</resources>
