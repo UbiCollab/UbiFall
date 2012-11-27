@@ -1,0 +1,73 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.falldetectioncentral"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> 
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> 
+	<uses-permission android:name="android.permission.CALL_PHONE"/>
+	<uses-permission android:name="android.permission.GET_TASKS" /> 
+	
+	
+	
+<!-- Permission needed to read social data from SocialProvider -->
+<permission
+    android:name="org.societies.android.SocialProvider.READ"
+    android:label="@string/provider_read_permission"
+    android:protectionLevel="dangerous"
+    android:description="@string/provider_read_permission_desc">
+</permission>
+<!-- Permission needed to write social data to SocialProvider -->
+<permission
+    android:name="org.societies.android.SocialProvider.WRITE"
+    android:label="@string/provider_write_permission"
+    android:protectionLevel="dangerous"
+    android:description="@string/provider_write_permission_desc">
+</permission>
+    
+
+	
+        <uses-permission
+                android:name="org.societies.android.SocialProvider.READ"
+        /> 
+         <uses-permission
+                android:name="org.societies.android.SocialProvider.WRITE"
+        /> 
+        
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:label="@string/app_name"
+        android:icon="@drawable/slippery"
+         android:theme="@style/jupiter"
+        >
+        <activity
+            android:name=".CentralMainActivity"
+            android:label="@string/title_activity_central_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+	<activity 
+	    android:theme="@style/jupiter"
+	    android:name=".FirstCollumnActivity"
+	    android:screenOrientation="portrait"
+	    ></activity>
+	<activity android:name=".SecondCollumnActivity"
+	    android:screenOrientation="portrait"
+	    android:theme="@style/jupiter"></activity>
+	<activity android:name=".ThirdCollumnActivity"
+	    android:screenOrientation="portrait"
+	    android:theme="@style/jupiter"></activity>
+	 <service android:name=".ServiceClass" ></service>
+	
+    </application>
+
+</manifest>

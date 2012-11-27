@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TableRow 
+        android:layout_width="fill_parent"
+        android:layout_marginRight="5dip"
+  	    android:layout_height="wrap_content" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:padding="5dip"
+        android:textSize="14dip"
+        android:text="Navn: "></TextView>
+    
+     <EditText
+	     android:id="@+id/addPersonDialogName"
+	     android:textSize="14dip"
+	     android:layout_width="210dip"
+	     android:layout_height="50dip"
+	     android:inputType="textCapWords" >
+
+	 </EditText>
+	</TableRow>
+	
+    
+    
+        <TableRow 
+       android:layout_width="fill_parent"
+        android:layout_marginRight="5dip"
+  	    android:layout_height="wrap_content" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:padding="5dip"
+        android:textSize="14dip"
+        android:text="Global-ID: "></TextView>
+    
+     <EditText
+	     android:id="@+id/addPersonDialogGlobalID"
+	      android:layout_width="fill_parent"
+	       android:textSize="14dip"
+	     android:layout_height="50dip"
+	    >
+
+	 </EditText>
+	</TableRow>
+	
+        
+        <TableRow 
+       android:layout_width="fill_parent"
+        android:layout_marginRight="5dip"
+  	    android:layout_height="wrap_content" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:padding="5dip"
+        android:textSize="14dip"
+        android:text="E-mail: "></TextView>
+    
+     <EditText
+	     android:id="@+id/addPersonDialogMail"
+	     android:layout_width="fill_parent"
+	      android:textSize="14dip"
+	     android:layout_height="50dip"
+	    >
+
+	 </EditText>
+	</TableRow>
+	
+                   
+        <TableRow 
+        android:layout_width="fill_parent"
+         android:layout_marginRight="5dip"
+  	    android:layout_height="wrap_content" >
+    
+    <TextView
+      android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:padding="5dip"
+        android:textSize="14dip"
+        android:text="Beskrivelse: "></TextView>
+    
+     <EditText
+	     android:id="@+id/addPersonDialogDescription"
+	     android:layout_width="wrap_content"
+	      android:textSize="14dip"
+	     android:layout_height="50dip"
+	    >
+
+	 </EditText>
+	</TableRow>
+	
+	
+                
+        <TableRow 
+        android:layout_width="fill_parent"
+         android:layout_marginRight="5dip"
+  	    android:layout_height="wrap_content" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:padding="5dip"
+        android:textSize="14dip"
+        android:text="Origin: "></TextView>
+    
+     <EditText
+	     android:id="@+id/addPersonDialogOrigin"
+	     android:layout_width="fill_parent"
+	      android:textSize="14dip"
+	     android:layout_height="50dip"
+	     android:text="box.com"
+	    >
+
+	 </EditText>
+	</TableRow>
+	
+                       
+        <TableRow 
+        android:layout_width="fill_parent"
+         android:layout_marginRight="5dip"
+  	    android:layout_height="wrap_content" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dip"
+        android:padding="5dip"
+        android:textSize="14dip"
+        android:text="Type forhold: "></TextView>
+    
+     <EditText
+	     android:id="@+id/addPersonDialogType"
+	     android:layout_width="fill_parent"
+	     android:textSize="14dip"
+	     android:layout_height="50dip"
+	    >
+
+	 </EditText>
+	</TableRow>
+	
+        
+        
+</TableLayout>
+

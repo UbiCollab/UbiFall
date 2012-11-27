@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">UbiFall</string>
+    <string name="menu_settings">Innstillinger</string>
+    <string name="title_activity_central_main">UbiFall - Sentral</string>
+    
+    <string name="provider_authority">org.societies.android.SocialProvider</string>
+    <string name="provider_read_permission">Read social data</string>
+    <string name="provider_write_permission">Write social data</string>
+    <string name="provider_read_permission_desc">Allows the application to read data related to groups and contacts.</string>
+    <string name="provider_write_permission_desc">Allows the application to modify or delete data related to groups and contacts.</string>
+
+</resources>
